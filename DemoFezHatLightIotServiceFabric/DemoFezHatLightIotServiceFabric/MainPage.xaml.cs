@@ -120,6 +120,7 @@ namespace DemoFezHatLightIotServiceFabric
             {
                 txtState.Text = ex.ToString();
             }
+            Debug.WriteLine(txtState.Text);
         }
 
         private void tgSend_Toggled(object sender, RoutedEventArgs e)
